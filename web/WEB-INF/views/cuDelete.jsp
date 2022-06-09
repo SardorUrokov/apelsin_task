@@ -13,6 +13,9 @@
     <title>Customer Delete</title>
 </head>
 <body>
+<h2>Spring MVC Create, Read, Update and Delete (CRUD) Example</h2>
 
+<p><strong><a href="/customer/all">Click for Read</a></strong></p>
+${msg}
 </body>
 </html>

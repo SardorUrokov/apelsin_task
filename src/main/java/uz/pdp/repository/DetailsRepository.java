@@ -4,7 +4,7 @@ import uz.pdp.entity.Details;
 
 import java.util.List;
 
-public interface DetailRepository {
+public interface DetailsRepository {
     public int create (Details detail);
 
     public List<Details> read();

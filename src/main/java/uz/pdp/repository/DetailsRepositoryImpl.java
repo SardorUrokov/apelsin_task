@@ -7,10 +7,10 @@ import uz.pdp.entity.Details;
 
 import java.util.List;
 
-public class DetailRepositoryImpl implements DetailRepository{
+public class DetailsRepositoryImpl implements DetailsRepository {
     JdbcTemplate jdbcTemplate;
 
-    public DetailRepositoryImpl(DriverManagerDataSource dataSource) {
+    public DetailsRepositoryImpl(DriverManagerDataSource dataSource) {
         jdbcTemplate = new JdbcTemplate(dataSource);
     }
 

@@ -13,6 +13,21 @@
     <title>Invoice Create</title>
 </head>
 <body>
+<h2>Spring MVC Create, Read, Update and Delete (CRUD) Example</h2>
+<form action="add" method="post" >
+<pre>
+    <strong>Create a Invoice Here | <a href="/invoice/all">Click for Read Invoices</a></strong>
 
+	Id: <input type="number" name="id"/>
+	Order Id: <input type="number" name="ord_id"/>
+	Amount: <input type="text" name="amount"/>
+	Issued: <input type="text" name="issued"/>
+	Due: <input type="text" name="due"/>
+
+	<input type="submit" value="Saqlash"/>
+</pre>
+</form>
+${ketmon}
 </body>
+
 </html>
